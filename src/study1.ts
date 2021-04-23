@@ -57,3 +57,11 @@ if(x) {
   }
 
 }
+
+//읽기전용배열 & 튜플
+{
+  let as : readonly number[] = [1,2,3];
+  //갱신해야한다면 concat, slice
+  let bs : readonly number[] = as.concat(4);
+  console.log(bs);
+}

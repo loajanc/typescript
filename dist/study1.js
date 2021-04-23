@@ -41,4 +41,10 @@ else {
         wags: true
     };
 }
+//읽기전용배열 & 튜플
+{
+    var as = [1, 2, 3];
+    var bs = as.concat(4);
+    console.log(bs);
+}
 //# sourceMappingURL=study1.js.map
